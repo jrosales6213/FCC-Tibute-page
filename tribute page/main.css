@@ -1,0 +1,152 @@
+html {
+    margin: 0;
+}
+#main {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: 3rem; 
+}
+.nick-name {
+    font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .nick-name {
+        font-size: 1.5rem;
+    }
+}
+#img-div {
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#image {
+    width: 100%;
+    height: auto;
+    
+}
+@media screen and (max-width: 800px){
+    #image {
+        width: 300px;
+    }
+}
+#img-caption {
+    font-size: 0.9rem;
+    text-align: center;
+}
+#personal-life {
+    background-color: #fbba24;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+#personal-life  li{
+    list-style-type:circle ;
+    padding: 10px;
+    text-align: center;
+    
+}
+#tribute-info {
+    background-color: #4b2c5a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.career-hightlights{
+    font-size: 1.3rem ;
+    text-align:center;
+    
+}
+li {
+    padding: 10px;
+    list-style: circle;
+}
+#quote {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+blockquote {
+    text-align: center;
+    font-size: 1.3rem;
+}
+blockquote p {
+    font-style: italic;
+}
+h3 {
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*
+ #image {
+    height: 500px;
+    display: flex;
+    
+ }
+ 
+ #img-div {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: indianred;
+     flex-wrap: wrap;
+ }
+ @media screen and (max-width: 450px) {
+   #image {
+     height: 300px
+   }
+ }
+ .image-text {
+    
+ }
+ 
+
+ #tribute-info {
+     background-color: red;
+     display: flex;
+     flex-direction: column;
+     padding-inline: 5px;
+ }
+ .career-hightlights{
+     display: flex;
+     flex-direction: column;
+     padding: 2%;
+ }
+ li {
+     padding: 7px;
+     list-style: none;
+ 
+ }
+ .quote {
+     font-size: 1.2rem;
+ }
+ /
